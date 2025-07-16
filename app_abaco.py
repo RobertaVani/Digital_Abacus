@@ -5,7 +5,7 @@ class Abaco:
         self.root = tk.Tk()
         self.root.title("Abaco Digitale")
         self.root.config(bg="#1E1E1E")
-        self.root.geometry("800x650")
+        self.root.geometry("1000x700")
 
         # Nuovi nomi colonne e barre
         self.barre = {"1": 0, "U^1": 0, "U^2": 0, "U^3": 0, "U^4": 0, "U^5": 0, "U^6": 0, "U^7": 0, "U^8": 0, "U^9": 0}
